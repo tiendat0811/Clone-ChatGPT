@@ -44,7 +44,7 @@ export default function Home() {
       method: "POST",
       body: JSON.stringify({
         messages: chatList,
-        model: process.env.MODEL,
+        model: process.env.NEXT_PUBLIC_MODEL,
       }),
     });
     const data = await response.json();
@@ -60,7 +60,7 @@ export default function Home() {
       method: "POST",
       body: JSON.stringify({
         messages: messages,
-        model: process.env.MODEL,
+        model: process.env.NEXT_PUBLIC_MODEL,
       }),
     });
     const data = await response.json();

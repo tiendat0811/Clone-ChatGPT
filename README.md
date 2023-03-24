@@ -9,7 +9,7 @@ Demo
 
 ```bash
 NEXT_PUBLIC_OPENAI_API_KEY=YOUR-API-KEY
-MODEL=gpt-3.5-turbo
+NEXT_PUBLIC_MODEL=gpt-3.5-turbo
 ```
 
 If you dont have api key go to this url to create a new API KEY:
