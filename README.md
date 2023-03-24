@@ -1,15 +1,20 @@
+## Clone ChatGPT with OpenAI API
+
+Demo
+![DemoChatGPT](https://i.ibb.co/TRWHrkv/image-Chat-GPTDemo.png)
+
 ## How to run?
 
-First, add .env or .env.local file follow this:
+1. First, add .env or .env.local file follow this:
 
 ```bash
 NEXT_PUBLIC_OPENAI_API_KEY=YOUR-API-KEY
+MODEL=gpt-3.5-turbo
 ```
 
 If you dont have api key go to this url to create a new API KEY:
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
-
-Second, install required package:
+Notes: You can change model to what model you want 2. Second, install required package:
 
 ```bash
 npm install
@@ -17,7 +22,7 @@ npm install
 yarn install
 ```
 
-Finally, run the development server:
+3. Finally, run the development server:
 
 ```bash
 npm run dev

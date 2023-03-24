@@ -44,7 +44,7 @@ export default function Home() {
       method: "POST",
       body: JSON.stringify({
         messages: chatList,
-        model: "gpt-3.5-turbo",
+        model: process.env.MODEL,
       }),
     });
     const data = await response.json();
@@ -60,7 +60,7 @@ export default function Home() {
       method: "POST",
       body: JSON.stringify({
         messages: messages,
-        model: "gpt-3.5-turbo",
+        model: process.env.MODEL,
       }),
     });
     const data = await response.json();
